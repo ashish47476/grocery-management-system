@@ -1,0 +1,128 @@
+.background-container-login {
+    background-image: url('../src/images/lnred.png');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center;
+    min-height: 100vh;
+    padding:20px;
+    /*/height: 1000px; / Set a height for the container */
+    /*/width: 100%; / Set a width for the container */
+  }
+
+.background-container {
+    background-image: url('../src/images/ln0.png');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center;
+    min-height: 100vh;
+    padding:20px;
+    /*/height: 1000px; / Set a height for the container */
+    /* /width: 100%; / Set a width for the container */ 
+  }
+  
+  .background-container1 {
+    background-image: url('../src/images/ln0.png');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center;
+    min-height: 100vh;
+    padding:20px;
+  }
+
+  .background-container2 {
+    background-image: url('../src/images/home-img.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center;
+    min-height: 100vh;
+    padding:30px;
+  }
+
+  .background-container3 {
+    background-image: url('../src/images/g5.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center;
+    min-height: 100vh;
+    padding:30px;
+  }
+
+  .background-container4 {
+    background-image: url('../src/images/g2.png');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center;
+    min-height: 100vh;
+    padding:30px;
+  }
+
+  .background-container5 {
+    background-image: url('../src/images/g5.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center;
+    min-height: 100vh;
+    padding:30px;
+  }
+
+  .background-container6 {
+    background-image: url('../src/images/g3.png');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center;
+    min-height: 100vh;
+    padding:30px;
+  }
+
+
+  .a {
+    background-image: url('../src/images/ln3.png');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    height: 100px; /* Set a height for the container */
+    width: 100; /* Set a width for the container */
+  }
+
+  .custom-button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .custom-button:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+  }
+
+  .custom-button2 {
+    background-color: #081078f7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .custom-button2:hover {
+    background-color: rgb(28, 218, 32);
+    transform: scale(1.1);
+  }
+
+  
+  .nav-text {
+    font-size: 20px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
