@@ -1,0 +1,88 @@
+/* Login.css */
+
+body {
+    background-color: #f0f0f3; /* Light blue background for the whole page */
+    font-size: x-large;
+    background-image: url('https://images.unsplash.com/photo-1487646709898-58d3c6e8d886?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMyfHxncm9jZXJ5fGVufDB8fDB8fHww');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+  }
+  
+  .page-title {
+    text-align: center;
+    color: #333;
+    /* margin-bottom: 20px; */
+  }
+  
+  .form-container {
+    background-color: #b8c3dfde; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #edefe2; /* Light gray background for input blocks */
+    border-radius: 5px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-login {
+    background-color: #28a745; /* Green background for the button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-login:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .register-link {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .register-link a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,46 @@
+.product-image {
+    width: 150px;  /* or whatever size you prefer */
+    height: 150px;
+    object-fit: cover; /* This ensures the image covers the area without stretching */
+  }
+  /* ProductGrid.css */
+
+.card {
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  margin: 0.5rem 0;
+}
+.btn-size{
+  background-color: rgb(85, 193, 236);
+  border-radius: 12px;
+  padding: 15px;
+ font-size: 15px;
+
+  
+}
+/* .btn-size:active{
+  display: ;
+} */
+.input-group{
+  padding: 10px;
+}
+h1{
+  color: blue;
+}

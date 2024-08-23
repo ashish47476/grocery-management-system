@@ -1,0 +1,28 @@
+/* Fade-in effect for the heading */
+body{
+  background-image: url('https://images.unsplash.com/photo-1487646709898-58d3c6e8d886?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMyfHxncm9jZXJ5fGVufDB8fDB8fHww');
+}
+.fade-in {
+    animation: fadeIn 2s ease-in;
+  }
+  
+  /* Button hover effect */
+  .button-fade {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button-fade:hover {
+    background-color: #45a049; /* Slightly darker green */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Keyframes for fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,25 @@
+/* Fade-in effect for the heading */
+.fade-in {
+    animation: fadeIn 2s ease-in;
+  }
+  
+  /* Button hover effect */
+  .button-fade {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button-fade:hover {
+    background-color: #45a049; /* Slightly darker green */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Keyframes for fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
